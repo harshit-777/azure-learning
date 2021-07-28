@@ -13,7 +13,7 @@ stages:
 - stage: Build
   jobs:
   - job: BuildJob
-    setps:
+    steps:
     - bash: echo "Do the build"
 - stage: DevDeploy
   jobs: 
